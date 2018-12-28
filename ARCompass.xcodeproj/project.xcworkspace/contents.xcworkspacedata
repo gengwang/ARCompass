@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testLazyAnimation.xcodeproj">
+      location = "self:/Users/gengwang/Projects/Labs/testLazyAnimation/ARCompass.xcodeproj">
    </FileRef>
 </Workspace>

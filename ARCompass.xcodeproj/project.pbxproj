@@ -13,10 +13,11 @@
 		A37AAFF821D6A09C0028E21B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37AAFF621D6A09C0028E21B /* Main.storyboard */; };
 		A37AAFFA21D6A09E0028E21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37AAFF921D6A09E0028E21B /* Assets.xcassets */; };
 		A37AAFFD21D6A09E0028E21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37AAFFB21D6A09E0028E21B /* LaunchScreen.storyboard */; };
+		A37AB00521D6EE000028E21B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A37AB00421D6EE000028E21B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A37AAFED21D6A09C0028E21B /* testLazyAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testLazyAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37AAFED21D6A09C0028E21B /* ARCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37AAFF021D6A09C0028E21B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A37AAFF221D6A09C0028E21B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		A37AAFF421D6A09C0028E21B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		A37AAFF921D6A09E0028E21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A37AAFFC21D6A09E0028E21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A37AAFFE21D6A09E0028E21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37AB00421D6EE000028E21B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,8 @@
 		A37AAFE421D6A09C0028E21B = {
 			isa = PBXGroup;
 			children = (
-				A37AAFEF21D6A09C0028E21B /* testLazyAnimation */,
+				A37AB00421D6EE000028E21B /* README.md */,
+				A37AAFEF21D6A09C0028E21B /* ARCompass */,
 				A37AAFEE21D6A09C0028E21B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +51,31 @@
 		A37AAFEE21D6A09C0028E21B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A37AAFED21D6A09C0028E21B /* testLazyAnimation.app */,
+				A37AAFED21D6A09C0028E21B /* ARCompass.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A37AAFEF21D6A09C0028E21B /* testLazyAnimation */ = {
+		A37AAFEF21D6A09C0028E21B /* ARCompass */ = {
 			isa = PBXGroup;
 			children = (
+				A37AAFF421D6A09C0028E21B /* ViewController.swift */,
 				A37AAFF021D6A09C0028E21B /* AppDelegate.swift */,
 				A37AAFF221D6A09C0028E21B /* art.scnassets */,
-				A37AAFF421D6A09C0028E21B /* ViewController.swift */,
 				A37AAFF621D6A09C0028E21B /* Main.storyboard */,
 				A37AAFF921D6A09E0028E21B /* Assets.xcassets */,
 				A37AAFFB21D6A09E0028E21B /* LaunchScreen.storyboard */,
 				A37AAFFE21D6A09E0028E21B /* Info.plist */,
 			);
-			path = testLazyAnimation;
+			path = ARCompass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A37AAFEC21D6A09C0028E21B /* testLazyAnimation */ = {
+		A37AAFEC21D6A09C0028E21B /* ARCompass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A37AB00121D6A09E0028E21B /* Build configuration list for PBXNativeTarget "testLazyAnimation" */;
+			buildConfigurationList = A37AB00121D6A09E0028E21B /* Build configuration list for PBXNativeTarget "ARCompass" */;
 			buildPhases = (
 				A37AAFE921D6A09C0028E21B /* Sources */,
 				A37AAFEA21D6A09C0028E21B /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = testLazyAnimation;
+			name = ARCompass;
 			productName = testLazyAnimation;
-			productReference = A37AAFED21D6A09C0028E21B /* testLazyAnimation.app */;
+			productReference = A37AAFED21D6A09C0028E21B /* ARCompass.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A37AAFE821D6A09C0028E21B /* Build configuration list for PBXProject "testLazyAnimation" */;
+			buildConfigurationList = A37AAFE821D6A09C0028E21B /* Build configuration list for PBXProject "ARCompass" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A37AAFEC21D6A09C0028E21B /* testLazyAnimation */,
+				A37AAFEC21D6A09C0028E21B /* ARCompass */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +130,7 @@
 			files = (
 				A37AAFF321D6A09C0028E21B /* art.scnassets in Resources */,
 				A37AAFFD21D6A09E0028E21B /* LaunchScreen.storyboard in Resources */,
+				A37AB00521D6EE000028E21B /* README.md in Resources */,
 				A37AAFFA21D6A09E0028E21B /* Assets.xcassets in Resources */,
 				A37AAFF821D6A09C0028E21B /* Main.storyboard in Resources */,
 			);
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maohao.ios.testLazyAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maohao.ios.ARCompass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maohao.ios.testLazyAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maohao.ios.ARCompass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A37AAFE821D6A09C0028E21B /* Build configuration list for PBXProject "testLazyAnimation" */ = {
+		A37AAFE821D6A09C0028E21B /* Build configuration list for PBXProject "ARCompass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A37AAFFF21D6A09E0028E21B /* Debug */,
@@ -330,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A37AB00121D6A09E0028E21B /* Build configuration list for PBXNativeTarget "testLazyAnimation" */ = {
+		A37AB00121D6A09E0028E21B /* Build configuration list for PBXNativeTarget "ARCompass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A37AB00221D6A09E0028E21B /* Debug */,
